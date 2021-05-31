@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-setoffhandCommand::setoffhandCommand() : IMCCommand("setoffhand", "Puts any item into offhand", "<ItemName> <count> <itemData>") {
+setoffhandCommand::setoffhandCommand() : IMCCommand("setoffhand", "Puts any item into offhand", "<ItemName> <255> <itemData>") {
 	registerAlias("soh");
 }
 
